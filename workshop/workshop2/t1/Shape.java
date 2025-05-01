@@ -6,16 +6,17 @@ public class Shape {
     }
 
     public double getArea() {
-        return 0.0; // Default, to be overridden
+        return 0.0;
     }
 
     public double getPerimeter() {
-        return 0.0; // Default, to be overridden
+        return 0.0;
     }
 
     public void display() {
         System.out.println("Shape: " + name);
         System.out.println("Area: " + getArea());
         System.out.println("Perimeter: " + getPerimeter());
+        System.out.println("------------------------");
     }
 }
