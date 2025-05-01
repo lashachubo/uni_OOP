@@ -1,7 +1,8 @@
+package workshop.workshop2.t1;
+
 public class Rectangle extends Shape implements Resizable {
     private double length;
     private double width;
-    private double scaleFactor = 1.0;
 
     public Rectangle(String name, double length, double width) {
         super(name);
@@ -21,7 +22,6 @@ public class Rectangle extends Shape implements Resizable {
 
     @Override
     public void resize(double scaleFactor) {
-        this.scaleFactor = scaleFactor;
         length *= scaleFactor;
         width *= scaleFactor;
     }

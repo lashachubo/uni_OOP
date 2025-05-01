@@ -1,3 +1,5 @@
+package workshop.workshop2.t1;
+
 public class Shape {
     protected String name;
 
@@ -14,9 +16,9 @@ public class Shape {
     }
 
     public void display() {
-        System.out.println("Shape: " + name);
-        System.out.println("Area: " + getArea());
-        System.out.println("Perimeter: " + getPerimeter());
-        System.out.println("------------------------");
+        System.out.println("shape: " + name);
+        System.out.println("area: " + getArea());
+        System.out.println("perimeter: " + getPerimeter());
+        System.out.println("\n\n");
     }
 }
